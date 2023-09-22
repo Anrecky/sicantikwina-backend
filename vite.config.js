@@ -26,13 +26,13 @@ export default defineConfig({
                 'resources/layouts/vertical-light-menu/loader.js',
 
                 'resources/layouts/vertical-dark-menu/loader.js',
-                
+
                 'resources/layouts/collapsible-menu/loader.js',
-                
+
                 // Structure
-                'resources/scss/layouts/vertical-light-menu/light/structure.scss',
-                'resources/scss/layouts/vertical-light-menu/dark/structure.scss',
-                
+                'resources/scss/layouts/collapsible-menu/light/structure.scss',
+                'resources/scss/layouts/collapsible-menu/dark/structure.scss',
+
                 // Main
                 'resources/scss/light/assets/main.scss',
                 'resources/scss/dark/assets/main.scss',
@@ -43,7 +43,7 @@ export default defineConfig({
 
                 'resources/scss/dark/assets/scrollspyNav.scss',
                 'resources/scss/dark/assets/custom.scss',
-                
+
                 // Assets Files
 
                 /**
@@ -65,12 +65,12 @@ export default defineConfig({
                 'resources/scss/light/assets/apps/notes.scss',
                 'resources/scss/light/assets/apps/scrumboard.scss',
                 'resources/scss/light/assets/apps/todolist.scss',
-                
+
                 // --- Authentication
                 'resources/scss/light/assets/authentication/auth-boxed.scss',
                 'resources/scss/light/assets/authentication/auth-cover.scss',
 
-                
+
                 // --- Componenets
                 'resources/scss/light/assets/components/accordions.scss',
                 'resources/scss/light/assets/components/carousel.scss',
@@ -85,7 +85,7 @@ export default defineConfig({
                 // --- Dashbaord
                 'resources/scss/light/assets/dashboard/dash_1.scss',
                 'resources/scss/light/assets/dashboard/dash_2.scss',
-                
+
                 // --- Elements
                 'resources/scss/light/assets/elements/alert.scss',
                 'resources/scss/light/assets/elements/color_library.scss',
@@ -96,11 +96,11 @@ export default defineConfig({
                 'resources/scss/light/assets/elements/popover.scss',
                 'resources/scss/light/assets/elements/search.scss',
                 'resources/scss/light/assets/elements/tooltip.scss',
-                
-                
+
+
                 // --- Forms
                 'resources/scss/light/assets/forms/switches.scss',
-                
+
                 // --- Pages
                 'resources/scss/light/assets/pages/contact_us.scss',
                 'resources/scss/light/assets/pages/faq.scss',
@@ -112,7 +112,7 @@ export default defineConfig({
                 // --- Users
                 'resources/scss/light/assets/users/account-setting.scss',
                 'resources/scss/light/assets/users/user-profile.scss',
-                
+
 
                 // --- Widgets
                 'resources/scss/light/assets/widgets/modules-widgets.scss',
@@ -137,12 +137,12 @@ export default defineConfig({
                 'resources/scss/dark/assets/apps/notes.scss',
                 'resources/scss/dark/assets/apps/scrumboard.scss',
                 'resources/scss/dark/assets/apps/todolist.scss',
-                
+
                 // --- Authentication
                 'resources/scss/dark/assets/authentication/auth-boxed.scss',
                 'resources/scss/dark/assets/authentication/auth-cover.scss',
 
-                
+
                 // --- Componenets
                 'resources/scss/dark/assets/components/accordions.scss',
                 'resources/scss/dark/assets/components/carousel.scss',
@@ -157,7 +157,7 @@ export default defineConfig({
                 // --- Dashbaord
                 'resources/scss/dark/assets/dashboard/dash_1.scss',
                 'resources/scss/dark/assets/dashboard/dash_2.scss',
-                
+
                 // --- Elements
                 'resources/scss/dark/assets/elements/alert.scss',
                 'resources/scss/dark/assets/elements/color_library.scss',
@@ -168,11 +168,11 @@ export default defineConfig({
                 'resources/scss/dark/assets/elements/popover.scss',
                 'resources/scss/dark/assets/elements/search.scss',
                 'resources/scss/dark/assets/elements/tooltip.scss',
-                
-                
+
+
                 // --- Forms
                 'resources/scss/dark/assets/forms/switches.scss',
-                
+
                 // --- Pages
                 'resources/scss/dark/assets/pages/contact_us.scss',
                 'resources/scss/dark/assets/pages/faq.scss',
@@ -184,7 +184,7 @@ export default defineConfig({
                 // --- Users
                 'resources/scss/dark/assets/users/account-setting.scss',
                 'resources/scss/dark/assets/users/user-profile.scss',
-                
+
 
                 // --- Widgets
                 'resources/scss/dark/assets/widgets/modules-widgets.scss',
@@ -198,11 +198,11 @@ export default defineConfig({
                  *      Assets JS Files
                  * =======================
                  */
-                
+
                 // Outer Files
                 'resources/assets/js/custom.js',
                 'resources/assets/js/scrollspyNav.js',
-                
+
                 // APPS
                 'resources/assets/js/apps/blog-create.js',
                 'resources/assets/js/apps/chat.js',
@@ -230,31 +230,31 @@ export default defineConfig({
                 // Dashboard
                 'resources/assets/js/dashboard/dash_1.js',
                 'resources/assets/js/dashboard/dash_2.js',
-                
-                
+
+
                 // Elements
                 'resources/assets/js/elements/popovers.js',
                 'resources/assets/js/elements/custom-search.js',
                 'resources/assets/js/elements/tooltip.js',
-                
+
                 // Forms
                 'resources/assets/js/forms/bootstrap_validation/bs_validation_script.js',
                 'resources/assets/js/forms/custom-clipboard.js',
-                
+
                 // Pages
                 'resources/assets/js/pages/faq.js',
                 'resources/assets/js/pages/knowledge-base.js',
-                
+
                 // Users
                 'resources/assets/js/users/account-settings.js',
-                
+
                 // Widget
                 'resources/assets/js/widgets/modules-widgets.js',
-                
-                
 
-                
-                
+
+
+
+
                 /**
                  * =======================
                  *      Plugins Files
@@ -267,7 +267,7 @@ export default defineConfig({
                 /**
                  * Light
                  */
-                
+
                 'resources/scss/light/plugins/apex/custom-apexcharts.scss',
                 'resources/scss/light/plugins/autocomplete/css/custom-autoComplete.scss',
                 'resources/scss/light/plugins/bootstrap-range-Slider/bootstrap-slider.scss',
@@ -331,11 +331,11 @@ export default defineConfig({
 
 
                 /**
-                 * 
+                 *
                  * =============
                  *      RTL
                  * =============
-                 * 
+                 *
                  */
 
 
@@ -350,13 +350,13 @@ export default defineConfig({
                 'resources/rtl/layouts/vertical-light-menu/loader.js',
 
                 'resources/rtl/layouts/vertical-dark-menu/loader.js',
-                
+
                 'resources/rtl/layouts/collapsible-menu/loader.js',
-                
+
                 // Structure
                 'resources/rtl/scss/layouts/vertical-light-menu/light/structure.scss',
                 'resources/rtl/scss/layouts/vertical-light-menu/dark/structure.scss',
-                
+
                 // Main
                 'resources/rtl/scss/light/assets/main.scss',
                 'resources/rtl/scss/dark/assets/main.scss',
@@ -367,7 +367,7 @@ export default defineConfig({
 
                 'resources/rtl/scss/dark/assets/scrollspyNav.scss',
                 'resources/rtl/scss/dark/assets/custom.scss',
-                
+
                 // Assets Files
 
                 /**
@@ -389,12 +389,12 @@ export default defineConfig({
                 'resources/rtl/scss/light/assets/apps/notes.scss',
                 'resources/rtl/scss/light/assets/apps/scrumboard.scss',
                 'resources/rtl/scss/light/assets/apps/todolist.scss',
-                
+
                 // --- Authentication
                 'resources/rtl/scss/light/assets/authentication/auth-boxed.scss',
                 'resources/rtl/scss/light/assets/authentication/auth-cover.scss',
 
-                
+
                 // --- Componenets
                 'resources/rtl/scss/light/assets/components/accordions.scss',
                 'resources/rtl/scss/light/assets/components/carousel.scss',
@@ -409,7 +409,7 @@ export default defineConfig({
                 // --- Dashbaord
                 'resources/rtl/scss/light/assets/dashboard/dash_1.scss',
                 'resources/rtl/scss/light/assets/dashboard/dash_2.scss',
-                
+
                 // --- Elements
                 'resources/rtl/scss/light/assets/elements/alert.scss',
                 'resources/rtl/scss/light/assets/elements/color_library.scss',
@@ -420,11 +420,11 @@ export default defineConfig({
                 'resources/rtl/scss/light/assets/elements/popover.scss',
                 'resources/rtl/scss/light/assets/elements/search.scss',
                 'resources/rtl/scss/light/assets/elements/tooltip.scss',
-                
-                
+
+
                 // --- Forms
                 'resources/rtl/scss/light/assets/forms/switches.scss',
-                
+
                 // --- Pages
                 'resources/rtl/scss/light/assets/pages/contact_us.scss',
                 'resources/rtl/scss/light/assets/pages/faq.scss',
@@ -436,7 +436,7 @@ export default defineConfig({
                 // --- Users
                 'resources/rtl/scss/light/assets/users/account-setting.scss',
                 'resources/rtl/scss/light/assets/users/user-profile.scss',
-                
+
 
                 // --- Widgets
                 'resources/rtl/scss/light/assets/widgets/modules-widgets.scss',
@@ -461,12 +461,12 @@ export default defineConfig({
                 'resources/rtl/scss/dark/assets/apps/notes.scss',
                 'resources/rtl/scss/dark/assets/apps/scrumboard.scss',
                 'resources/rtl/scss/dark/assets/apps/todolist.scss',
-                
+
                 // --- Authentication
                 'resources/rtl/scss/dark/assets/authentication/auth-boxed.scss',
                 'resources/rtl/scss/dark/assets/authentication/auth-cover.scss',
 
-                
+
                 // --- Componenets
                 'resources/rtl/scss/dark/assets/components/accordions.scss',
                 'resources/rtl/scss/dark/assets/components/carousel.scss',
@@ -481,7 +481,7 @@ export default defineConfig({
                 // --- Dashbaord
                 'resources/rtl/scss/dark/assets/dashboard/dash_1.scss',
                 'resources/rtl/scss/dark/assets/dashboard/dash_2.scss',
-                
+
                 // --- Elements
                 'resources/rtl/scss/dark/assets/elements/alert.scss',
                 'resources/rtl/scss/dark/assets/elements/color_library.scss',
@@ -492,11 +492,11 @@ export default defineConfig({
                 'resources/rtl/scss/dark/assets/elements/popover.scss',
                 'resources/rtl/scss/dark/assets/elements/search.scss',
                 'resources/rtl/scss/dark/assets/elements/tooltip.scss',
-                
-                
+
+
                 // --- Forms
                 'resources/rtl/scss/dark/assets/forms/switches.scss',
-                
+
                 // --- Pages
                 'resources/rtl/scss/dark/assets/pages/contact_us.scss',
                 'resources/rtl/scss/dark/assets/pages/faq.scss',
@@ -508,7 +508,7 @@ export default defineConfig({
                 // --- Users
                 'resources/rtl/scss/dark/assets/users/account-setting.scss',
                 'resources/rtl/scss/dark/assets/users/user-profile.scss',
-                
+
 
                 // --- Widgets
                 'resources/rtl/scss/dark/assets/widgets/modules-widgets.scss',
@@ -522,11 +522,11 @@ export default defineConfig({
                  *      Assets JS Files
                  * =======================
                  */
-                
+
                 // Outer Files
                 'resources/rtl/assets/js/custom.js',
                 'resources/rtl/assets/js/scrollspyNav.js',
-                
+
                 // APPS
                 'resources/rtl/assets/js/apps/blog-create.js',
                 'resources/rtl/assets/js/apps/chat.js',
@@ -554,31 +554,31 @@ export default defineConfig({
                 // Dashboard
                 'resources/rtl/assets/js/dashboard/dash_1.js',
                 'resources/rtl/assets/js/dashboard/dash_2.js',
-                
-                
+
+
                 // Elements
                 'resources/rtl/assets/js/elements/popovers.js',
                 'resources/rtl/assets/js/elements/custom-search.js',
                 'resources/rtl/assets/js/elements/tooltip.js',
-                
+
                 // Forms
                 'resources/rtl/assets/js/forms/bootstrap_validation/bs_validation_script.js',
                 'resources/rtl/assets/js/forms/custom-clipboard.js',
-                
+
                 // Pages
                 'resources/rtl/assets/js/pages/faq.js',
                 'resources/rtl/assets/js/pages/knowledge-base.js',
-                
+
                 // Users
                 'resources/rtl/assets/js/users/account-settings.js',
-                
+
                 // Widget
                 'resources/rtl/assets/js/widgets/modules-widgets.js',
-                
-                
 
-                
-                
+
+
+
+
                 /**
                  * =======================
                  *      Plugins Files
@@ -591,7 +591,7 @@ export default defineConfig({
                 /**
                  * Light
                  */
-                
+
                 'resources/rtl/scss/light/plugins/apex/custom-apexcharts.scss',
                 'resources/rtl/scss/light/plugins/autocomplete/css/custom-autoComplete.scss',
                 'resources/rtl/scss/light/plugins/bootstrap-range-Slider/bootstrap-slider.scss',
@@ -653,7 +653,7 @@ export default defineConfig({
 
 
 
-                
+
             ],
             refresh: true,
         }),
@@ -682,7 +682,7 @@ export default defineConfig({
     //         }
     //     }
     // }
-    
+
     // resolve: {
     //     alias: {
     //         // '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap')
